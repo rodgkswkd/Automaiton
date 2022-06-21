@@ -11,3 +11,10 @@ describe('My Login application', () => {
             'You logged into a secure area!');
     });
 });
+
+describe('naver.com 이동', () => {
+    it('naver.com 이동', async () => {
+        await LoginPage.naver()
+    });
+});
+

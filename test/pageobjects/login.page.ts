@@ -37,6 +37,10 @@ class LoginPage extends Page {
     public open () {
         return super.open('login');
     }
+
+    public naver () {
+        return super.naver();
+    }
 }
 
 export default new LoginPage();
